@@ -1,4 +1,4 @@
-package pt.up.fe.ldts.example5;
+/*package pt.up.fe.ldts.example5;
 
 public class TurtleWest extends TurtleState{
     public TurtleWest() { }
@@ -17,5 +17,5 @@ public class TurtleWest extends TurtleState{
     public void rotateLeft() {
         turtle.setDirection(new TurtleSouth(turtle));
     }
-}
+}*/
 

@@ -1,12 +1,7 @@
 package pt.up.fe.ldts.example3;
 
-public class PercentageDiscount implements Discount{
-    private final double percentage;
-    public PercentageDiscount(double percentage) {
-        this.percentage = percentage;
-    }
+public class PercentageDiscount extends Discount {
+    public PercentageDiscount(double discount) {super(discount);}
     @Override
-    public double applyDiscount(double price) {
-        return price - price * percentage;
-    }
+    public double applyDiscount(double price) {return price - price * getDiscount();}
 }

@@ -1,4 +1,4 @@
-package pt.up.fe.ldts.example5;
+/*package pt.up.fe.ldts.example5;
 
 public class TurtleNorth extends TurtleState{
     public TurtleNorth() { }
@@ -7,7 +7,7 @@ public class TurtleNorth extends TurtleState{
     }
     @Override
     public void moveForward() {
-        turtle.setColumn(turtle.getRow() + 1);
+        turtle.setRow(turtle.getRow() + 1);
     }
     @Override
     public void rotateRight() {
@@ -17,4 +17,4 @@ public class TurtleNorth extends TurtleState{
     public void rotateLeft() {
         turtle.setDirection(new TurtleWest(turtle));
     }
-}
+}*/
